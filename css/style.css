@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+.active {
+  color: #1b9bff;
+  border-bottom: 2px solid #1b9bff;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+
+  text-decoration: none;
+  font-family: 'Comic Sans MS';
+}
+
+.logo {
+  width: 100%;
+  left: 010;
+  top: 0;
+  margin: 0 0px;
+}
+
+.logo span {
+  color: #1b9bff;
+}
+
+.navbar {
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #1b1b1b;
+  position: fixed; top: 0; left: 0; z-index: 9999; width: 100%;
+}
+
+.nav_link {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_link ul {
+  margin: 2px;
+  padding: 5px 10px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 30px;
+}
+
+.navbar ul li a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 70px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  position: relative;
+  text-transform: capitalize;
+  font-family: 'Comic Sans MS';
+}
+
+.navbar ul li a:hover {
+  color: #1b9bff;
+  border-bottom: 2px solid #1b9bff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #282727d0;
+  border-top: 2px solid #1b9bff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 200px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content ul li {
+  display: block;
+  margin: 0 0px;
+  text-align: left;
+  border-bottom: 2px solid #161718;
+}
+
+.dropdown-content ul li a {
+  font-size: 15px;
+}
+
+.dropdown-content ul li a:hover {
+  color: white;
+  border-bottom: none;
+  background-color: #16171800;
+}
+
+.dropdown-content ul :hover {
+  background-color: #1617188b;
+}
+
+/*----footer*/
+.footer {
+  left: 0px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Comic Sans MS';
+
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  /*background-image: url(../images/footer-bg.jpg);*/
+  background-color: #161718;
+  border-top: 4px solid #1b9bff;
+  justify-content: space-between;
+}
+
+.footer__Email :hover {
+  color: #1b9bff;
+}
+
+.footer__title__ul {
+  list-style-type: none;
+  padding-inline-start: 0%;
+}
+
+.footer__title {
+  color: #1b9bff;
+}
+
+.footer__title__ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.copy {
+  display: block;
+  background-color: #0c0d0e;
+}
+
+.img-hero-7{
+  position: relative;
+  margin-top: 77px;
+  width: 100%;
+  
+}
